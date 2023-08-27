@@ -1,0 +1,59 @@
+/* File added by Elia*/
+
+.text-con{
+  width: 50%;
+  float: left;
+  margin-left: 25%;
+  margin-top: 50%;
+  margin-bottom: 10%;
+}
+
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%; 
+  object-fit: cover;
+  
+}
+.square-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 20px;
+  height: 800px;
+  padding-left: 20%;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 40px;
+}
+.heaad{
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+}
+
+.info {
+  margin-left: 50px;
+}
+
+.subheading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  color: #191970;
+}
+
+.para{
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+}
