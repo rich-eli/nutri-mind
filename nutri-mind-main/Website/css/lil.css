@@ -61,7 +61,7 @@
 /*UPDATE 29 AUGUST*/
 @media(max-width: 1231px){
   #bg-video{
-    object-fit: contain;
+    object-fit: fill;
     bottom: 20px;
   }
   .text-con{
