@@ -58,3 +58,14 @@
   margin: 0;
   font-weight: 400;
 }
+/*UPDATE 29 AUGUST*/
+@media(max-width: 1231px){
+  #bg-video{
+    object-fit: contain;
+    bottom: 20px;
+  }
+  .text-con{
+    margin-top: 100%;
+  }
+
+}
