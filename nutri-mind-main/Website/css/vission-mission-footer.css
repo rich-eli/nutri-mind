@@ -4,7 +4,331 @@
 reset
 --------------------------------------------- 
 */
+html, body, div, span, applet, object, iframe, @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+/* 
+---------------------------------------------
+reset
+--------------------------------------------- 
+*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
+s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+figure, header, nav, section, article, aside, footer, figcaption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+html[xmlns] .clearfix {
+  display: block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header, nav, section, article, aside, footer, hgroup {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #fcfcfd;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #7a7a7a;
+}
+
+
+/* @media (max-width: 991px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .mobile-top-fix {
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .mobile-bottom-fix {
+    margin-bottom: 30px;
+  }
+  .mobile-bottom-fix-big {
+    margin-bottom: 60px;
+  }
+} */
+
+.section-heading {
+  text-align: center;
+  margin-top: 140px;
+  margin-bottom: 80px;
+}
+
+.section-heading h1 {
+  font-size: 28px;
+  font-weight: 800;
+  /* background-color: #ffde2e; */
+  color: #191970;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section-heading h1 em {
+  font-style: normal;
+  /* background-color: #191970; */
+  color: #ffde2e;
+}
+
+/*
+--------------------------------------------
+Vission Mission
+--------------------------------------------
+*/
+
+#vission-mission {
+  margin-bottom: 140px;
+}
+
+#tabs ul {
+  margin: 0;
+  padding: 0;
+}
+#tabs ul li {
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 100%;
+}
+#tabs ul li:last-child {
+  margin-bottom: 0px;
+}
+#tabs ul li a {
+  text-transform: capitalize;
+  width: 100%;
+  padding: 30px 30px;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  font-size: 19px;
+  color: #232d39;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+#tabs .main-rounded-button a {
+  text-align: center;
+  padding: 20px 30px;
+  width: 100%;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  color: #fcfcfd;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  background-color: #191970;
+}
+#tabs .main-rounded-button a:hover {
+  background-color: #ffde2e;
+}
+#tabs ul li a img {
+  max-width: 100%;
+  margin-right: 20px;
+}
+#tabs ul .ui-tabs-active span {
+  background: #faf5b2;
+  border: #faf5b2;
+  line-height: 90px;
+  border-bottom: none;
+}
+#tabs ul .ui-tabs-active a {
+  color: #ffde2e;
+  background-color:  #191970;
+}
+#tabs ul .ui-tabs-active span {
+  color:  #191970;
+}
+.tabs-content {
+  margin-left: 30px;
+  text-align: left;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.tabs-content h4 {
+  font-size: 23px;
+  font-weight: 700;
+  color: #232d39;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.tabs-content p {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin-bottom: 28px;
+}
+
+/* 
+---------------------------------------------
+footer
+--------------------------------------------- 
+*/
+
+footer {
+  margin-top: 150px;
+  padding: 50px 0px;
+  background-color:#191970;
+  border-radius: 100px 100px 0px 0px;
+  min-height: 150px;
+  position: relative;
+}
+
+footer .left-text-content p {
+  margin-top: 5px;
+  color: #ffde2e;
+  font-size: 14px;
+  text-align: right;
+}
+
+footer .right-text-content p {
+  color: #ffde2e;
+  font-size: 14px;
+  margin-right: 15px;
+  text-transform: uppercase;
+}
+
+
+footer .right-text-content {
+  text-align: left;
+  margin-top: 10px;
+}
+
+footer .logo {
+  text-align: center;
+}
+
+footer .right-text-content ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+footer .right-text-content ul li:first-child {
+  margin-left: 0px;
+}
+
+
+footer .right-text-content ul li a {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  text-align: center;
+  line-height: 44px;
+  font-size: 20px;
+  background-color: #ffde2e;
+  border-radius: 50%;
+  color:#191970;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+footer .right-text-content ul li a:hover {
+  color: #2a2a2a;
+}
+
+
+/* 
+---------------------------------------------
+responsive
+--------------------------------------------- 
+*/
+
+@media (max-width: 1000px) {
+
+  .section-heading{
+    padding-bottom: 50px;
+  }
+}
+
+/* 992 */
+@media (max-width: 800px) {
+
+  .right-text-content{
+    padding-left: 175px;
+  }
+
+  .left-text-content{
+    padding-right: 175px;
+  }
+
+  .section-heading{
+    padding-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  .right-text-content{
+    padding-left: 100px;
+  }
+
+  .left-text-content{
+    padding-top: 10px;
+    padding-right: 110px;
+  }
+
+  .section-heading{
+    padding-bottom: 50px;
+  }
+
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
 figure, header, nav, section, article, aside, footer, figcaption {
