@@ -98,3 +98,23 @@
   
 
 }
+@media(max-width: 768px){
+  
+  svg{
+    width: 50px;
+    height: 50px;
+  }
+  .square{
+    flex-direction: column;
+    align-items:last baseline ;
+  }
+  .heaad{
+    font-size: large;
+  }
+  .para{
+    word-wrap: break-word;
+    font-size: 8px;
+  }
+
+}
+
