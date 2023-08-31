@@ -44,7 +44,9 @@
 .info {
   margin-left: 50px;
 }
-
+.valu{
+  overflow: auto;
+}
 .subheading {
   font-size: 22px;
   font-weight: bold;
@@ -67,6 +69,9 @@
   
 
 }
+  
+
+
 @media(max-width: 425px){
   #bg-video{
    height: 25%;
@@ -110,21 +115,26 @@
     align-items:last baseline ;
   }
   */
+ 
   .square-container{
     flex-direction: column;
     align-items:flex-start;
   }
   .heaad{
-    font-size: large;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 55px;
   }
   .para{
     word-wrap: break-word;
     font-size: 8px;
   }
-.projects section-padding{
-  overflow : visible;
+  .valu{
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 60px;
+  }
+  .text-con{
+    justify-content: center;
+  }
 }
-  
-
-}
-
