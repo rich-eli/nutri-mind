@@ -72,12 +72,6 @@ ul {
   margin-bottom: 0px;
 }
 
-p {
-  font-size: 14px;
-  line-height: 25px;
-  color: #7a7a7a;
-}
-
 
 /* @media (max-width: 991px) {
   html, body {
@@ -101,21 +95,21 @@ p {
   margin-bottom: 80px;
 }
 
-.section-heading h1 {
-  font-size: 28px;
+.section-heading h2 {
+  font-size: 36px;
   font-weight: 800;
   /* background-color: #ffde2e; */
-  color: #191970;
-  text-transform: uppercase;
+  color: #ffde2e;
+  /* text-transform: uppercase; */
   letter-spacing: 0.5px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-.section-heading h1 em {
+.section-heading h2 em {
   font-style: normal;
   /* background-color: #191970; */
-  color: #ffde2e;
+  color: #191970;
 }
 
 /*
@@ -188,13 +182,14 @@ Vission Mission
   color:  #191970;
 }
 .tabs-content {
-  margin-left: 30px;
-  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: justify;
   display: inline-block;
   transition: all 0.3s;
 }
 .tabs-content h4 {
-  font-size: 23px;
+  font-size: 24px;
   font-weight: 700;
   color: #232d39;
   letter-spacing: 0.5px;
@@ -202,7 +197,7 @@ Vission Mission
   margin-top: 30px;
 }
 .tabs-content p {
-  font-size: 14px;
+  font-size: 16px;
   color: #7a7a7a;
   margin-bottom: 28px;
 }
