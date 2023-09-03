@@ -172,7 +172,7 @@ Vission Mission
 #tabs ul .ui-tabs-active span {
   background: #faf5b2;
   border: #faf5b2;
-  line-height: 90px;
+  /* line-height: 90px; */
   border-bottom: none;
 }
 #tabs ul .ui-tabs-active a {
@@ -193,7 +193,7 @@ Vission Mission
   font-size: 24px;
   font-weight: 700;
   color: #232d39;
-  letter-spacing: 0.5px;
+  /* letter-spacing: 0.5px; */
   margin-bottom: 20px;
   margin-top: 30px;
 }
@@ -276,6 +276,35 @@ responsive
 /* 992 */
 @media (max-width: 800px) {
 
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  .section-padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .right-text-content{
     padding-top: 10px;
     padding-left: 175px;
@@ -297,6 +326,26 @@ responsive
 
 @media (max-width: 450px) {
 
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
   .right-text-content{
     padding-top: 0px;
     padding-left: 100px;
@@ -314,4 +363,15 @@ responsive
     padding-bottom: 50px;
   }
 
+  .tabs-content{
+    padding-bottom: 175px;
+  }
+
+  footer{
+    border-radius: 50px 50px 0px 0px;
+  }
+
+  #tabs ul {
+    padding-bottom: 0px;
+  }
 }
