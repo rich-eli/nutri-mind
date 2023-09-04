@@ -75,10 +75,12 @@
 @media(max-width: 425px){
   #bg-video{
    height: 25%;
-   padding-bottom: 50px;   
+   padding-bottom: 0px;   
   }
   .text-con{
-    padding-top: 40%;
+    padding-top: 10%;
+    margin-top: 20%;
+   
   }
   
 
@@ -89,7 +91,7 @@
    padding-bottom: 70px;
   }
   .text-con{
-    padding-top: 35%;
+    padding-top: 20%;
   }
   
   
@@ -106,43 +108,48 @@
 @media(max-width: 768px){
   
   svg{
-    width: 50px;
-    height: 50px;
-    padding-right: 20px;
+    width: 70px;
+    height: 70px;
+    
   }
-  /*
-  .square{
-    flex-direction: column;
-    align-items:last baseline ;
-  }
-  */
- 
+  
   .square-container{
     flex-direction: column;
-    align-items:flex-start;
+    align-items: center;
+    padding-left: 0%;
+    margin: 0%;
+    justify-content: none;
+    padding-right: 15%;
+    
+    
   }
   .heaad{
-    font-size: 30px;
-    text-align: center;
-    padding-left: 55px;
+    padding-left: 10px;
+  }
+  /*
+  .heaad{
+    font-size: large;
   }
   .para{
     word-wrap: break-word;
-    font-size: 14px;
+    font-size: 8px;
   }
-  .valu{
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding-right: 60px;
-  }
-  .text-con{
-    justify-content: center;
-    margin-left: 0%;
-    float: left;
-    text-align: left;
-    padding-left: 15px;
-    width: 80%;
+*/
+.square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
   
-  }
   
+}
+.svg-contain {
+  /*display: flex; /* Use flex to center SVG horizontally 
+  justify-content: center; /* Center SVG horizontally 
+  align-items: center; /* Center SVG vertically */
+  top: 50%;
+  left: 50%;
+  transform: translate(35%, -10%);
+}
 }
