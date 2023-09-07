@@ -127,6 +127,12 @@
     
   }
   
+  .text-con{
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 14%;
+  }
+  
   .subheading{
     margin: 0 auto;
     color: #ffde2e;
